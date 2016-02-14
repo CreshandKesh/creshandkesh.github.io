@@ -1,0 +1,197 @@
+body
+{
+    background-color: #D5D3D3;
+}
+
+#container
+{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family:sans-serif;
+    box-shadow: 2px 2px 2px 2px #999;
+    background-color: white;
+}
+
+#botonm
+{
+
+    box-shadow: 0 0 2px #999;
+}
+
+#formulario
+{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 2px 1px #999;
+}
+
+#encabezado
+{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px; 
+    background-size: cover; 
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0097a7;
+    box-shadow:2px 2px 2px 2px #999;
+}
+
+li
+{
+    float: left;
+}
+
+
+li a
+{
+ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+li a:hover:not(.active)
+{
+    background-color: #009688;
+}
+
+.active
+{
+    background-color: #009688;
+}
+
+#articulos
+{
+    float: left;
+    width: 65%;
+}
+
+.articulo
+{
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 2px 3px 3px 3px #999;
+}
+
+#ar1
+{
+ width: 40%;
+}
+#ar2
+{
+    width: 40%;
+}
+
+#ar3
+{
+    width: 85%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.articulo header
+{
+    background-image: url("../img/chihuahua.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.articulo section h1
+{
+    text-align: center;
+}
+
+.articulo p
+{
+    margin: 10px;
+}
+
+.button
+{
+border-top: 1px solid block;
+height: 100%;
+}
+
+.button p
+{
+    border-top: 1px solid #D5D3D3;
+}
+
+.button p a
+{
+        margin: 10px;
+    outline: none;
+    display: block;
+text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    height: 10%;
+}
+
+
+aside
+{
+    background-color: #009688;
+    float: right;
+    width: 30%;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #999;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+aside h3
+{
+    margin-left: 5%;
+        text-transform: uppercase;
+}
+
+aside p
+{
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+
+aside h3::first-letter
+{
+    font-size: 200%;
+}
+
+#pie
+{
+    clear: both;
+    background-color: #0097a7;
+    color: white;
+    width: 100%;
+    box-shadow: 1px 2px 2px #666;
+}
+
+#pie p
+{
+    color: white;
+    text-align: center;
+height: 50px;
+}
+
+#pie nav ul
+{
+     box-shadow:  0px 0px #666;
+}
